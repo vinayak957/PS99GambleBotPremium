@@ -55,7 +55,7 @@ Config = {
         "House": 0.95 # house edge (winnings*house)
     },
     "Rakeback" : 1.5, # Rakeback %
-    "Username": "username", # The Username Of The Account Running The Bot
+    "Username": "Gem_Blox07", # The Username Of The Account Running The Bot
     "DiscordBotToken": ".G8qSbD." # The token of the discord bot
 }
 username = Config['Username']
