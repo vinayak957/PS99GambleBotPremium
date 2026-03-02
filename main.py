@@ -19,7 +19,7 @@ app = Quart(__name__)
 
 Config = {
     "Bot Name": "Gem Blox Bot", # will be in all embeds
-    "Bot Icon": "image link", # will be in all embeds
+    "Bot Icon": "https://auto.creavite.co/api/out/RgtnMRTkaENotb9iu1_standard.gif", # will be in all embeds
     "Towers" : { # Config for towers
         "WinChance" : 60,  # Percent they will win when they click a tower
         "Multis" : [1.42, 2.02, 2.86, 4.05, 5.69]  # Multipliers On The Blocks
@@ -39,24 +39,24 @@ Config = {
         "UserID" : ["1454332354326954199"], # user id (only put your user id) for setgems, confirmdeposit, addgems, removegems
     },
     "AutoDeposits" : {
-        "Webhook" : "", # auto deposits or /confirmdeposit
+        "Webhook" : "https://discord.com/api/webhooks/1477942088569061389/RJ5nhD1lzvTPFE4cOtM3qux3UOdfdgPNnAsr0GCaUs032s_X_FNiE5gRqNsjK8Cc70-f", # auto deposits or /confirmdeposit
     },
     "Affiliates" : {
-        "Webhook" : "https://discord.com/api/webhooks//--w", # webhook for when someone gets affiliated
+        "Webhook" : "https://discord.com/api/webhooks/1477942649150242908/bSNvO3QU7qwKrhvbXLXAtoynPDHXIJMTiroEk9DJoaVAySv8Wp2NAb8cHnxQgC7qEcCY", # webhook for when someone gets affiliated
     },
     "Tips" : {
-        "Webhook" : "https://discord.com/api/webhooks//-w3Hj9geeU1x6o-5mHEkanLdNZI-vK0N1", # webhook for tips
+        "Webhook" : "https://discord.com/api/webhooks/1477942848585203755/6_ijR1V94nCTsQtcfPdsuLXEPYJN81t3yAlKTIaT2EOM-goMYbGrwbi5_7QawmkJYkfl", # webhook for tips
     },
     "Promocodes" : {
-        "Webhook" : "https://discord.com/api/webhooks//", # webhook for promocodes
+        "Webhook" : "https://discord.com/api/webhooks/1477943043624800366/n3-CFF0-wpoNlWJQ2kKnUuQ5RO1T7Fo_PBURS0KEoT_Qa17le42bqjq3bZ-b82gGR3t_", # webhook for promocodes
         "RoleID" : '1477940604724969583', # role id for ping
     },
     "Upgrader": { # Config for upgrader
         "House": 0.95 # house edge (winnings*house)
     },
     "Rakeback" : 1.5, # Rakeback %
-    "Username": "Gem_Blox07", # The Username Of The Account Running The Bot
-    "DiscordBotToken": ".G8qSbD." # The token of the discord bot
+    "Username": "Gem_Blox_holder", # The Username Of The Account Running The Bot
+    "DiscordBotToken": "MTQ3Nzk0MzYwMjgxMzMzNzc3Mg.GyCnVB.tinK906dNX1zZiSJzhOaNMeZpZe5Z3WR7xXB64." # The token of the discord bot
 }
 username = Config['Username']
 
