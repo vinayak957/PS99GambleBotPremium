@@ -18,25 +18,25 @@ from quart import Quart, request, jsonify
 app = Quart(__name__)
 
 Config = {
-    "Bot Name": "prem Gamble Bot", # will be in all embeds
+    "Bot Name": "Gem Blox Bot", # will be in all embeds
     "Bot Icon": "image link", # will be in all embeds
     "Towers" : { # Config for towers
-        "WinChance" : 62,  # Percent they will win when they click a tower
+        "WinChance" : 60,  # Percent they will win when they click a tower
         "Multis" : [1.42, 2.02, 2.86, 4.05, 5.69]  # Multipliers On The Blocks
     },
     "Mines" : { # Config for mines
         "House" : 0.14,  # The Multiplier Will Be Multiplied by 1.00 - This
     },
-    "Logs": id, # log channel
+    "Logs": 1477939654291488947, # log channel
     "Coinflip" : { # Config for coinflip
-        "1v1" : "id",  # Channel That Coinflips Be In
+        "1v1" : "1477940234921578517",  # Channel That Coinflips Be In
         "House": 3.5 # House Edge (%)
     },
     "Rains" : { # Config for rains
-        "Channel" : "id", # Set to the id the channel rains will be in
+        "Channel" : "1477940330430201989", # Set to the id the channel rains will be in
     },
     "AdminCommands" : {
-        "UserID" : ["id"], # user id (only put your user id) for setgems, confirmdeposit, addgems, removegems
+        "UserID" : ["1454332354326954199"], # user id (only put your user id) for setgems, confirmdeposit, addgems, removegems
     },
     "AutoDeposits" : {
         "Webhook" : "", # auto deposits or /confirmdeposit
@@ -49,7 +49,7 @@ Config = {
     },
     "Promocodes" : {
         "Webhook" : "https://discord.com/api/webhooks//", # webhook for promocodes
-        "RoleID" : "", # role id for ping
+        "RoleID" : '1477940604724969583', # role id for ping
     },
     "Upgrader": { # Config for upgrader
         "House": 0.95 # house edge (winnings*house)
